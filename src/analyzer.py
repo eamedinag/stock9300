@@ -84,6 +84,19 @@ STOCK_NAME_MAP = {
     '01299': '友邦保险',
     '00941': '中国移动',
     '00883': '中国海洋石油',
+        # === Futuros y Materias Primas ===
+    'GC=F': 'Oro (Futuro)',
+    'SI=F': 'Plata (Futuro)',
+    'CL=F': 'Petróleo WTI (Futuro)',
+    'NG=F': 'Gas Natural (Futuro)',
+    'PL=F': 'Platino (Futuro)',
+    'HG=F': 'Cobre (Futuro)',
+    
+    # === Índices ===
+    '^GSPC': 'S&P 500',
+    '^DJI': 'Dow Jones Industrial Average',
+    '^IXIC': 'Nasdaq Composite',
+    '^NDX': 'Nasdaq-100',
 }
 
 
