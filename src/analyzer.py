@@ -1032,23 +1032,6 @@ Please generate a Decision Dashboard for **{stock_name}({code})**, strictly in J
 ⚠️ CRITICAL INSTRUCTION: ALL OUTPUT MUST BE WRITTEN EXCLUSIVELY IN SPANISH. Do not use Chinese characters anywhere in the response. If you see text in Chinese, translate it automatically to Spanish.
 
 Please output the complete JSON format Decision Dashboard.
-
-请为 **{stock_name}({code})** 生成【决策仪表盘】，严格按照 JSON 格式输出。
-
-### 重点关注（必须明确回答）：
-1. ❓ 是否满足 MA5>MA10>MA20 多头排列？
-2. ❓ 当前乖离率是否在安全范围内（<5%）？—— 超过5%必须标注"严禁追高"
-3. ❓ 量能是否配合（缩量回调/放量突破）？
-4. ❓ 筹码结构是否健康？
-5. ❓ 消息面有无重大利空？（减持、处罚、业绩变脸等）
-
-### 决策仪表盘要求：
-- **核心结论**：一句话说清该买/该卖/该等
-- **持仓分类建议**：空仓者怎么做 vs 持仓者怎么做
-- **具体狙击点位**：买入价、止损价、目标价（精确到分）
-- **检查清单**：每项用 ✅/⚠️/❌ 标记
-
-请输出完整的 JSON 格式决策仪表盘。"""
         
         return prompt
     
